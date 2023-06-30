@@ -4,7 +4,8 @@ export function Icons ({ link,icon,text }) {
     return(
         <>
             <StyledLink href={link} target='blank' >
-                {icon}{text}
+                <span>{icon}</span>
+                <p>{text}</p>
             </StyledLink>
         </>
     )
